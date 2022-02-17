@@ -1,5 +1,5 @@
 void func(){
-  // float alpha, omiga; //state two floating-point variables, alpha and omiga
+  float alpha, omiga; //state two floating-point variables, alpha and omiga
 //if MPU6050 DMP status to error, the program stop working
 if (!dmpReady)
 return;
