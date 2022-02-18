@@ -1,4 +1,4 @@
-#include "src/lib.h"
+#include "src/sensors.h"
 void setup() {
   set_led();
   set_svm();
