@@ -34,6 +34,7 @@
                 "/Users/kosei/Library/Arduino15/packages/arduino/hardware/avr/1.8.4/libraries/Wire/src",
                 "/Users/kosei/Documents/Arduino/libraries/I2Cdev",
                 "/Users/kosei/Documents/Arduino/libraries/MPU6050",
+                "/Applications/Arduino.app/Contents/Java/libraries/Servo/src",
                 "/Users/kosei/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0/include",
                 "/Users/kosei/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0/include-fixed",
                 "/Users/kosei/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include"
