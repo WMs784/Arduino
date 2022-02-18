@@ -22,7 +22,7 @@ volatile bool mpuInterrupt = false;
 void dmpDataReady()
 {
 mpuInterrupt = true; }
-void def(){
+void set_ang_loc(){
     // indicates whether MPU interrupt pin has
 Serial.begin(9600); //Open the serial port and set the baud rate to 115200, upload the program to the Arduino IDE and observe th situation of the serial port
 //add the bus sequence of I2C

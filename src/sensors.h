@@ -5,3 +5,13 @@
 #include "lib/rot_enc.h"
 #include "lib/ult_snc.h"
 #include "lib/water.h"
+
+void setup_sensors(){
+    set_ang_loc();
+    set_led();
+    set_svm();
+    set_dcm();
+    set_rot_enc();
+    set_ult_snc();
+    set_water();
+}

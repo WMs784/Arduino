@@ -1,7 +1,6 @@
 #include "src/sensors.h"
 void setup() {
-  set_led();
-  set_svm();
+  set_sensors();
 }
 void loop() {
   digitalWrite(RED, HIGH);
