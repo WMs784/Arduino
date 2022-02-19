@@ -64,7 +64,7 @@ Serial.println(")");
 }
 }
 
-void func(){
+float ang(){
   float alpha, omiga; //state two floating-point variables, alpha and omiga
   //if MPU6050 DMP status to error, the program stop working
   if (!dmpReady)
@@ -98,4 +98,5 @@ void func(){
   // get current FIFO count fifoCount = mpu.getFIFOCount();
   Serial.print("Alpha "); Serial.print(alpha); Serial.print("\tOmiga "); Serial.println(omiga);
   }
+  return omiga;
 }
