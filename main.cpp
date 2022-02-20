@@ -1,12 +1,16 @@
 #include "std.h"
-#include "src/sensors.h"
-#include "src/map.h"
+#define rep(i,n) for(int i = 0;i < (int)n;i++)
+
+int itv = 15;
+
 void setup() {
   setup_sensors();
 }
 void loop() {
-  digitalWrite(RED, HIGH);
-  // myservo.write(30);  // サーボモーターを30度の位置まで動かす
-  set_map(dis(),ang());
-  delay(2000);
+  digitalWrite(GREEN, HIGH);
+    delay(1000);
+    rep(i,180/itv){
+        myservo.write(itv*i);
+        set_map(dis(),itv*i);
+    }
 }

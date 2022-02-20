@@ -4,7 +4,7 @@
 
 using namespace std;
 
-const int length = 400,width = 200;
+const int length = 40,width = 40;
 vector<vector<int>> field_map(length,vector<int>(width,0));
 
 void set_map(float r,float theta){
