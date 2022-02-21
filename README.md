@@ -82,9 +82,9 @@ void loop() {
     digitalWrite(trigPin, LOW);
     digitalWrite(echoPin, LOW);
     distance = distance * 0.01;//１００個の平均を取る
-    Serial.print(“distance “);
+    Serial.print("distance ");
     Serial.print(distance);
-    Serial.print(“angle “);
+    Serial.print("angle ");
     Serial.println(i * 30);
     myservo.write(i * 30);  // サーボモーターを30i度の位置まで動かす
     delay(2000);
@@ -106,7 +106,7 @@ void loop() {
       else {
         encoderPosCount--;
       }
-      Serial.print(“Encoder Position: “);
+      Serial.print("Encoder Position: ");
       Serial.println(encoderPosCount);
     }
     pinALast = aVal;
@@ -127,7 +127,7 @@ void loop() {
       else {
         encoderPosCount--;
       }
-      Serial.print(“Encoder Position: “);
+      Serial.print("Encoder Position: ");
       Serial.println(encoderPosCount);
     }
     pinALast = aVal;
