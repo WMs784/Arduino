@@ -3,7 +3,7 @@
 
 #include "ArduinoSTL.h" 
 #include "src/sensors.h"
-#include "src/map.h"
+#include "scan.h"
 
 void setup();
 void loop();

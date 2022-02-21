@@ -1,8 +1,9 @@
-// #ifndef _SCAN
-// #define _SCAN
+#ifndef _SCAN
+#define _SCAN
 
-// #include "src/sensors.h"
+#include "ArduinoSTL.h"
 
-// void scan();
+void set_map(float r,float theta);
+void scan();
 
-// #endif
+#endif
