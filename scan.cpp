@@ -44,6 +44,7 @@ void bfs(int x,int y){
     // }
     while (!que.empty){
         rep(dir,4){
+            int xd = x + dx[dir], yd = y + dy[dir];
             if(xd < 0 || xd >= length || yd < 0 || yd >= width)continue;
             if(field_map[xd][yd] < 0)continue;
             if(seen[xd][yd])continue;
