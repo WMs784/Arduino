@@ -7,7 +7,8 @@
 #include "lib/water.h"
 
 void setup_sensors(){
-    set_ang_loc();
+    Serial.begin(9600);
+    // set_ang_loc();
     set_led();
     set_svm();
     set_dcm();

@@ -7,11 +7,13 @@ void setup() {
   setup_sensors();
 }
 void loop() {
-    digitalWrite(RED, HIGH);
+    digitalWrite(GREEN, HIGH);
     delay(1000);
     rep(i,180/itv){
-        myservo.write(itv*i);
-        set_map(dis(),itv*i);
+      set_map(dis(),itv*i);
     }
-    degitalWrite(RED,LOW);
+    digitalWrite(GREEN, LOW);
+    delay(1000);
+    digitalWrite(BLUE, HIGH);
+    delay(1000);
 }
