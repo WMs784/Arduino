@@ -16,4 +16,6 @@ void loop() {
     delay(1000);
     digitalWrite(BLUE, HIGH);
     delay(1000);
+    scan();
+    delay(1000);
 }
