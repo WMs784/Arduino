@@ -1,7 +1,10 @@
 #include "std.h"
 #define rep(i,n) for(int i = 0;i < (int)n;i++)
 
+using namespace std;
+
 int itv = 15;
+int time = millis();
 
 void setup() {
   setup_sensors();
@@ -18,4 +21,6 @@ void loop() {
     delay(1000);
     scan();
     delay(1000);
+    Serial.println(time);
+    cout << time << endl;
 }

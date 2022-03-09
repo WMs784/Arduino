@@ -8,7 +8,7 @@
 
 using namespace std;
 
-const int length = 20,width = 20, det_dis = 10;
+const int length = 100,width = 100, det_dis = 10;
 int cur_x = length/2, cur_y = width/2;
 int tg_x = 0,tg_y = 0;
 vector<vector<int> > field_map(length,vector<int>(width,1));
